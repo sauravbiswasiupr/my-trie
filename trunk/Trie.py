@@ -66,8 +66,8 @@ class Trie(object):
 
 def main():
   trie = Trie()
-  phone_numbers = [('anthony','5105797184'),('tracy','2096402509'),
-                   ('dad','5102203019'),('mom','5107034805')]
+  phone_numbers = [('anthony','5105793184'),('tracy','2396402509'),
+                   ('dad','5102203039'),('mom','5137034805')]
   for name,number in phone_numbers:
     trie.insert(name,number)
 
